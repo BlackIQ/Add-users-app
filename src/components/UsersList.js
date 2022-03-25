@@ -5,13 +5,17 @@ const UsersList = (props) => {
         <div className='card border'>
             <div className='card-body'>
                 {
-                    props.users.length > 0 ? <ul>
+                    props.users.length > 0 ? <div>
                         {props.users.map((user) => (
-                            <li key={user.id}>
-                                {user.name} ({user.age} years old)
-                            </li>
+                            <div>
+                                <span key={user.id}>
+                                    {user.name}
+                                    <span className='float-end text-primary'>{user.age} years old</span>
+                                </span>
+                                <br/>
+                            </div>
                         ))}
-                    </ul> : <p>No user is added.</p>
+                    </div> : <p>No user is added.</p>
                 }
             </div>
         </div>
