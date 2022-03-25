@@ -1,12 +1,5 @@
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: sans-serif;
-  background: #1f1f1f;
-}
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 
 body {
-  margin: 0;
+    font-family: 'Nunito', sans-serif !important;
 }
