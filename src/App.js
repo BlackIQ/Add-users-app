@@ -30,13 +30,12 @@ function App() {
                 <div className="modal-dialog modal-dialog-centered">
                     <div className="modal-content">
                         <div className="modal-header">
-                            <h5 className="modal-title" id="exampleModalLabel">Modal title</h5>
+                            <h5 className="modal-title" id="exampleModalLabel">Invalid data</h5>
                             <button type="button" className="btn-close" data-mdb-dismiss="modal" aria-label="Close"/>
                         </div>
-                        <div className="modal-body">...</div>
+                        <div className="modal-body">Make sure you enter a valid value.</div>
                         <div className="modal-footer">
-                            <button type="button" className="btn btn-secondary" data-mdb-dismiss="modal">Close</button>
-                            <button type="button" className="btn btn-primary">Save changes</button>
+                            <button type="button" className="btn btn-primary" data-mdb-dismiss="modal">Close</button>
                         </div>
                     </div>
                 </div>
